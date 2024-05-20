@@ -4,5 +4,5 @@ void main(){
     int a = 35;
     int b = 34;
     int sum = -(-a-b);
-    printf(" a = %d /n", sum);
+    printf(" a = %d /n", sum); //o/p  --> 69
 }
