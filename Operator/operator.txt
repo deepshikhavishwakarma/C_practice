@@ -1,0 +1,31 @@
+Operator is a special symbol used to do a particular task [ 
+work ]. C comes with 44 operators and 14 separators.
+Operator works on operands. Based on no of operands 
+participating in operation, the operators divided into 3 
+types.
+1.Unary operator:
+  Require one operand.
+  Eg: a++, a--, ++a, --a, sizeof(a), +a, -a, ~a, !a,…
+2.Binary operators: Require two operands.
+  Eg: a+b, a-b, a>b, a<=b, a!=b, a<<b, a>>b,…
+3. Ternary / conditional operator [?:]: Require 3 
+  operands or expressions.
+  Eg: Condition part ? true part : false part;
+  Based on operation the operators divided into several 
+  types.
+1.Assignment operator [ = ]: It copies the value on its 
+  right side into the variable on its left side. In 
+  assignment operation, the left side operand should 
+  be a variable. i.e. constants or expressions not 
+  allowed on left side.
+  Eg: 
+     a=10;
+     b=1.2;
+     c=’x’;
+     d=”abc”;  Error because of “abc” is a string
+     10=20;  Error because of 10 is a constant
+     10+20  30=30  Error
+    Note: Always expression evaluates constant value. 
+     Hence left side expressions not allowed.
+    c=10+20;
+    a=b=c=100

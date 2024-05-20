@@ -1,0 +1,31 @@
+/ - division [ Quotient ]:
+5/2=2 
+Note: In division if both operands are integers then 
+result also int. if anyone or both are floats then result 
+also float.
+5.0/2=2.500000
+5/2.0=2.500000
+5.0/2.0=2.50000
+
+(float)5/2=2.500000 [ explicit type casting ]
+int a=5.3;  5 /* implicit type casting */
+float a=2;  2.000000 /* implicit type casting */
+5/(float)2=2.500000
+(float)(5/2)=2.000000
+
+123/10=12
+12/10=1
+1/10=0
+Note: Any no/10 removes last digit
+
+
+Write a c program to print a 3 digit no in reverse order 
+without using loops
+Eg: 123 reverse is 321
+
+-5/2= -2
+5/-2= -2
+-5/-2= 2
+Note: In division any one operand is negative then 
+result also negative. If both are negative then result is 
+positive
