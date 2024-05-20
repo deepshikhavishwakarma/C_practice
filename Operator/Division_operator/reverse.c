@@ -5,4 +5,5 @@ void main(){
     int n =123;
     printf("%d reverse is %d",n , n%10); // 123 reverse is 3
     n = n/10;
-    printf("%d %d",n %10 ,n/10);
+    printf("%d%d",n %10 ,n/10);
+}
