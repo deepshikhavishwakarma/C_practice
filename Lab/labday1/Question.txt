@@ -1,0 +1,4 @@
+WAP to swap two number without using 3rd variable .                  (swap.c)
+WAP to swap two number with using 3rd variable .                     (swap2.c)
+WAP to make a sum of 2 no input as 34 then output should be 7        (sum2.c)
+WAP to make a sum of 2  no without using + operator.                 (Addopt.c)
