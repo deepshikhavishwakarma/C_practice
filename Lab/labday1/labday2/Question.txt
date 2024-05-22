@@ -1,0 +1,50 @@
+1. Write a C program to reverse 3 digit number without using any loops. Given number is 786 and expected output is 687.
+
+2. Write a C program to calculate and print the area of a square and rectangle.
+
+Side of square is : 5
+
+Length and breadth of rectanngle is : 4 , 5
+
+3. A shopkeeper buys a TV set for Rs. 3500 and sells it at a profit of 27%. Apart from this a VAT of 12.7% and Service Charge is 3.87% is charged. 
+
+Write a C program to Display total selling price, profit along with vat and service charge.
+
+
+
+To calculate the selling price, profit, VAT, and service charge, follow these steps:
+
+
+
+1) Calculate the selling price:
+
+  Selling Price = Cost Price + Profit
+
+  Selling Price = Rs. 3500 + (27% of Rs. 3500)
+
+
+
+2) Calculate the profit:
+
+  Profit = Selling Price - Cost Price
+
+
+
+3) Calculate VAT:
+
+  VAT = 12.7% of Selling Price
+
+
+
+4) Calculate Service Charge:
+
+  Service Charge = 3.87% of Selling Price
+
+-----------------------------------------------------------------------------------------------------------
+
+4 . Write a c program to find the next multiple of 10 of a given two digit number, if the given number's last digit is less than 5 then 
+
+find the previous multiple of 10 and if the given number's last digit is greater than or equal to 5 then find the next multiple of 10.
+
+[Dont use if else or ternary operator ]
+
