@@ -5,6 +5,6 @@ int main() {
  int o = (m/10)*10;      //2*10 = 20
    
    int mod = m%10;
- printf("%d\n",mod);
+ printf("%d",(mod>=5)? n :o);
 return 0;    
 }
