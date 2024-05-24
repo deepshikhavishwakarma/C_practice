@@ -1,0 +1,27 @@
+Relational operators 
+[ == ( comparison), <, >, <=, >=, != ( not equal ) ]:
+They are used to check the given condition / expression is true or false. If condition true always 
+the result is 1 and condition false always the result is 0.
+
+Logical operators 
+
+1.&& - and
+2.|| - or
+3.! – not
+&&, || operators used to combine two or more 
+expressions into a single expression.
+! used for negation i.e. true become false and false 
+become true
+Note: In C other than 0 anything is 1 i.e. true.
+Operator      Expression1     Expression2       Result
+&&            1 – true             1              1
+                  1             0 – false         0
+                  0             1                 0
+                  0             0                 0
+||                1             1                 1
+                  1             0                 1
+                  0             1                 1
+                  0             0                 0
+
+!true = false
+!false = true

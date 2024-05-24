@@ -1,0 +1,1 @@
+2. Write a program to take input for seconds from the user , And convert it into Hour, Minutes , Second format.
