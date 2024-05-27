@@ -25,3 +25,48 @@ Operator      Expression1     Expression2       Result
 
 !true = false
 !false = true
+
+() and , separators:
+
+--------------->
+int a = (1,2,3); L to R
+
+a =1;
+a = 2;
+a = 3;
+p(a); //3
+
+Operator precedence
+(PRIORITY OF OPERATORS)
+1. ()
+2. +, - , ! (sign operators, unary operators) 
+3. ++, -- (pre increment & decrement)
+4. *, / , %
+5. +, - (Binary)
+6. = =, !=
+7. &&
+8. ||
+9. ? : (ternary operator)
+10. =
+11. ++, -- ( Post increment & decrement )
+12. , (comma)
+
+
+a  = 1,(2),3;
+a=1 answer
+
+a=(1,2),(3,4);
+a = 2,4
+    |
+<---
+
+a = 2 answer
+
+a = ((1,2),(3,4),5),6;
+      (2,     4, 5),6
+                 5,6
+                 a=5
+
+
+sizeof(): It return the no of bytes taken by a variable / 
+data type / value

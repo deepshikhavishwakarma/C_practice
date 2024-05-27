@@ -45,4 +45,28 @@ void main(){
    printf("%d\n", 1.1 && 2.2); //1 && 1 ==>1
    printf("%d\n", 5.5 && 0); //1 && 0 ==>0
    printf("%d\n", !5.5>0 && !0==1); //0 && 1 ==>0
+  printf("-------------------------------\n");
+  int a,b,c,d;
+  a = printf("I ") || printf("you"); //I
+  b = printf("Love ") && printf("Rashmika "); //Love Rashmika
+  c = printf("Thank You") || printf("Good bye"); //Thank you
+  d = printf("") && printf("I hate no one");
+  printf("\n %d%d%d%d\n",a,b,c,d); //1110
+
+  printf("-------------------------------\n");
+  printf("") && printf("Hi\n");
+  printf("Hello") || printf("Goodbye"); //Hello
+
+ printf("\n-------------------------------\n");
+  1 && printf("Hi\n"); //Hi
+  0 && printf("Hello\n");
+  -5 || printf("Hello Deep\n"); 
+  printf("\n-------------------------------\n");
+ a= printf("I\n");
+ b= a* printf("Hate\n");
+ c=a+b + printf("You\n");
+ printf("%d%d%d\n",a,b,c);
+  
+  
+
 }
