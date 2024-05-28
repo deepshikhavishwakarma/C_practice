@@ -1,0 +1,32 @@
+1. Write a C program to take two character input from the user and print the ASCII value of that two character and display its sum.
+Input as :
+
+Enter a character: a b
+Expected output :
+
+ASCII value of a is : 97
+
+ASCII value of b is : 98
+
+ASCII sum of a & b is : 195
+
+----------------------------------------------------------------------------------------------------------------------
+2. Write a C program that takes 2 number as input and store that number in a variable, First input for radius of a Circle and 2nd input for side of a Square. Then calculate the area of Circle and Square and display it.
+Input as :
+
+Enter radius of Circle : 12
+
+Enter side of Square : 5
+
+Output as :
+
+Area of Circle is : 452.16
+
+Area of Square is : 25
+----------------------------------------------------------------------------------------------------------------------
+3. Write a program in C to input number of days. Find and display number of years, weeks, months and days.
+   Input as : 390
+
+   Output as : 1 Year, 3 Weeks, 0 Month, 4 Days
+----------------------------------------------------------------------------------------------------------------------
+

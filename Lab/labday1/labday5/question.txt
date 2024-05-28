@@ -1,0 +1,55 @@
+1. Write a program that takes the total bill amount and the number of people from the user. Calculate and print the amount each person needs to pay, assuming an equal split of the bill.
+
+Input :
+
+-------
+
+total bill( in float) ->1200.00
+
+number of people(in int)-> 5
+
+Output :
+
+--------
+
+amount each person needs to pay ->240
+Note : you have to print the msg as it is shown in the example.         (bill.c)
+
+---------------------------------------------------------------------------------------------------------------------
+2. Create a program that takes the principal amount, interest rate, and time in years from the user and calculates the simple interest. Print the result with appropriate messages.
+
+ Input :
+
+-------
+principal amount: 4000
+interest rate (in percentage): 5
+time in years: 3
+Output :
+--------
+Simple Interest is: 600.00                                                               (interest.c)
+----------------------------------------------------------------------------------------------------------------------
+
+3.  Write a C program to find the given number is even or odd. Take the input from the console by using scanf().
+
+Don't use any control flow statement or ternary operator.
+
+Case - 1
+
+--------------------
+Input as :
+
+Enter a number : 12
+
+Output as :
+
+12 is an Even number.
+
+Case-2
+--------------
+Input as :
+Enter a number : 13
+Output as :
+13 is an Odd number.                                                                                    (evenOdd.c)
+----------------------------------------------------------------------------------------------------------------------
+
+
