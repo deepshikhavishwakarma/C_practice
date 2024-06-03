@@ -1,0 +1,328 @@
+Question: 1
+Output of this statment is :
+
+printf ( “%d” , printf ( “hello” ) );
+
+
+
+A. Syntex Error
+
+
+B. hello5
+
+
+C. gives garbage value
+
+
+D. print hello and terminates
+
+ 
+Question: 2
+
+What is the output of this program?
+
+include
+int main()
+{
+int i;
+i = 1, 2, 3;
+printf(“%d”, i);
+return 0;
+}
+
+
+
+A. 1
+
+
+B. 2
+
+
+C. 3
+
+
+D. Invalid Syntax
+
+ 
+Question: 3
+
+What is the output of this program ?
+
+int main()
+{
+int i=-2;
+i=i+i*i++;
+printf(“%d”,i);
+return 0;
+}
+
+
+
+A. -2
+
+
+B. 1
+
+
+C. -1
+
+
+D. -2
+
+ 
+Question: 4
+
+What is the output of the following code?
+
+main ( )
+{
+int i;
+i=1;
+i=i+2*i++;
+printf( “%d” , i);
+}
+
+
+
+A. 2
+
+
+B. 3
+
+
+C. 4
+
+
+D. 5
+
+
+Question: 5
+
+What is the output of this program 32 bit c compiler ?
+
+include
+int main()
+{
+int a = 1;
+printf(“%d %p”,a,a);
+return 0;
+}
+
+
+
+A. Runtime error
+
+
+B. 1 00000001
+
+
+C. 1 1
+
+
+D. %p is not a format specifier
+
+ 
+Question: 6
+
+What is the output of the following code?
+
+int main() {
+int i=1;
+i=2+2*i++;
+printf(“%d”,i);
+return 0;
+}
+
+
+
+A. 2
+
+
+B. 3
+
+
+C. 4
+
+
+D. 5
+
+
+Question: 7
+
+What is the output of this program?
+
+include
+int main()
+{
+printf(“variable! %d”, x);
+return 0;
+}
+
+
+
+A. variable! x
+
+
+B. variable! followed by a junk value
+
+
+C. Compile time error
+
+
+D. variable!
+
+ 
+Question: 8
+
+What is the output of this program? if input a is 1 and b is 2
+
+include
+int main()
+{
+int a, b;
+printf(“%d”, scanf(“%d %d”,&a,&b));
+return 0;
+}
+
+
+
+A. 1
+
+
+B. 2
+
+
+C. runtime error
+
+
+D. compile time error
+
+
+Question: 9
+
+What is the output of this program?
+
+int main()
+{
+int i=5;
+printf( “%d %d %d ” , i,i<2,i>2);
+return 0;
+}
+
+
+
+A. Compilation error
+
+
+B. Garbage value
+
+
+C. 5 0 1
+
+
+D. 5 1 0
+
+ 
+Question: 10
+
+What is the output of this program?
+
+include
+int main()
+{
+int i;
+i = printf(“letsfindcourse”);
+i = printf(“%d “, i);
+printf(“%d “, i);
+return 0;
+}
+
+
+
+A. letsfindcourse 15 3
+
+
+B. letsfindcourse 14 2
+
+
+C. letsfindcourse 14 3
+
+
+D. Compilation Error
+
+
+Question: 11
+
+What is the output of this program?
+
+include
+int main()
+{
+int main = 3;
+printf(“%d”, main);
+return 0;
+}
+
+
+
+A. 3
+
+
+B. Compile time error
+
+
+C. Run time error
+
+
+D. give garbage value
+
+ 
+Question: 12
+
+What is the output of this program?
+
+main()
+{
+int i;
+i = 2+3, 4>3, 1;
+printf( “%d” , i);
+}
+
+
+
+A. 1
+
+
+B. 4
+
+
+C. 3
+
+
+D. 5
+
+
+Question: 13
+
+What is the output of this program ?
+
+int main()
+{
+int i=5;
+printf( “%d %d %d ” , i,i&&2,i||2);
+return 0;
+}
+
+
+
+A. 5 1 1
+
+
+B. Compilation error
+
+
+C. Garbage value
+
+
+D. 5 0 1
+

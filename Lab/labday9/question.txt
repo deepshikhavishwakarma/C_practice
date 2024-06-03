@@ -1,0 +1,79 @@
+1. Write a C program that takes two integers and operator (+,-,*,/) as input from the user using scanf and perforom calculates their sum, substraction, multiplication, and division.
+intput - 
+Enter 1st number 
+20
+Enter 2nd number
+
+10
+Enter operater (+,-,/,*)
+
++
+output 
+addition = 30                                                                                         (operator.c)
+----------------------------------------------------------------------------------------------------------------------
+2. Write a program that takes the initial velocity (in meters per second), acceleration (in meters per second squared), and time (in seconds) from the user using scanf. Calculate the distance traveled by an object using the formula:
+
+formula :
+( distance= initial_velocity × time+ 1/2 * acceleration × time * time )
+
+input :
+
+Enter the initial velocity (m/s): 10
+Enter the acceleration (m/s^2): 20
+Enter the time (s): 4
+output :
+
+The distance traveled is 200.00 meters.
+----------------------------------------------------------------------------------------------------------------------3. Write a program that converts an amount of money from one currency to another. The user should input the amount in the source currency and the exchange rate. Calculate the equivalent amount in the target currency and print it.
+
+formula : ( converted_amount = amount * exchange_rate )
+input :
+Enter the amount in the source currency: 4
+Enter the exchange rate (source to target): 2
+output :
+Equivalent amount in the target currency: 8.00                                                          (currency.c)
+----------------------------------------------------------------------------------------------------------------------4. Write a program that takes details of an employee from the user, including name, employee ID, designation, and salary. Then, print the details of the employee.
+
+input :
+
+Enter employee name: rohit
+
+Enter employee ID: 101
+
+Enter employee designation: development 
+
+Enter employee salary: 25000
+
+output:
+
+Employee Details
+
+Name: rohit
+
+Employee ID: 101
+
+Designation: development
+
+Salary: $25000.00                                                                             (emp.c)
+----------------------------------------------------------------------------------------------------------------------5. Write a C program to calculate simple interest. Prompt the user to enter the principal amount, the rate of interest (in percentage), and the time period (in years). Then, calculate and display the simple interest.
+
+input :-
+
+Enter the principal amount: 25000
+
+Enter the rate of interest (in percentage): 2
+
+Enter the time period (in years): 3
+output:-
+
+The simple interest for the given principal amount 25000.00,
+
+ rate 2.00%, 
+
+ time 3.00 years is 1500.00.                                                                       (si.c)
+
+
+
+
+
+

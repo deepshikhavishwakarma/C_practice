@@ -1,0 +1,346 @@
+Question: 1
+What will be the output of the following program?
+int main()
+{
+float c = 3.5 + 4;
+printf(“%d”, (int)c);
+
+return 0;
+}
+
+
+
+A) 8.0
+
+
+B) 8.000000
+
+Correct Answer
+C) 7
+
+
+D) 8
+
+ Correct
+Question: 2
+What will be the output of the following program?
+int main()
+{
+int i = 3;
+int l = i / -2;
+int k = i % -2;
+printf(“%d %d\n”, l, k);
+return 0;
+}
+
+
+
+Compile time error
+
+Correct Answer
+-1 1
+
+
+1 -1
+
+
+Implementation defined
+
+ Correct
+Question: 3
+What will be the output of the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 5, c = 5;
+    int d;
+    d = a == (b + c);
+    printf("%d", d);
+}
+
+
+a) Syntax error
+
+Correct Answer
+b) 1
+
+
+c) 10
+
+
+d) 5
+
+ Correct
+Question: 4
+Which of the following is not an arithmetic operation?
+
+
+
+a) a * = 10;
+
+
+b) a / = 10;
+
+Correct Answer
+c) a ! = 10;
+
+
+d) a % = 10;
+
+ Incorrect
+Question: 5
+What will be the output of the following program?
+
+int main()
+{
+float c = 3.5 + 4.5;
+printf(“%d”, (int)c);
+
+return 0;
+}
+
+
+
+A) 8.0
+
+
+B) 8.000000
+
+Incorrect Answer
+C) 7
+
+Correct Answer
+D) 8
+
+ No Answerwas selected
+Question: 6
+What is the output of the C Program.?
+int main()
+{
+float a=10.0;
+a = a % 3;
+printf(“%f”, a);
+
+return 0;
+}
+
+
+
+A) 0
+
+
+B) 1
+
+
+C) 1.000000
+
+Correct Answer
+D) Compiler error.
+
+ Correct
+Question: 7
+What is the use of sizeof() operator?
+
+
+Correct Answer
+To get the size of data types or variables in bytes
+
+
+To get the size of variables only
+
+
+To get the size of the structure only
+
+
+None of the above
+
+ Correct
+Question: 8
+The expression 4 + 6 / 3 * 2 – 2 + 7 % 3 evaluates to
+
+
+
+A. 3
+
+
+B. 4
+
+
+C. 6
+
+Correct Answer
+D. 7
+
+ Correct
+Question: 9
+What will be the output for the following C code?
+
+include
+int main()
+{
+int x = 4, y = 2;
+x /= x / y;
+printf(“%d\n”, x);
+return 0;
+}
+
+
+
+1)4
+
+Correct Answer
+2)2
+
+
+3)1
+
+
+4)Undefined behavior
+
+ Correct
+Question: 10
+What will be the value of d in the following program?
+
+int main()
+{
+    int a = 10, b = 5, c = 5;
+    int d;
+    d = b + c == a;
+    printf("%d", d);
+}
+
+
+A. Syntax error
+
+Correct Answer
+B. 1
+
+
+C. 5
+
+
+D. 10
+
+ Incorrect
+Question: 11
+What is the output of the C Program.?
+int main()
+{
+int a=0;
+a = 14%-5 - 2;
+printf(“%d”, a);
+
+return 0;
+}
+
+
+
+A) 0
+
+
+B) -4
+
+Incorrect Answer
+C) -2
+
+Correct Answer
+D) 2
+
+ Incorrect
+Question: 12
+If a b c is the input, then the following program fragment
+
+char x, y, z ;
+printf(“%d”,scanf(“%c%c%c”,&x,&y,&z)) ;
+
+
+
+a syntax error
+
+
+a fatal error
+
+
+segmentation violation
+
+Correct Answer
+3
+
+Incorrect Answer
+no output
+
+ Correct
+Question: 13
+What will be the output of the following program?
+
+include
+int main()
+{
+int x = 5, y = 2;
+x *= x - y;
+printf(“%d”, x);
+return 0;
+}
+
+
+Correct Answer
+1)15
+
+
+2)3
+
+
+3)10
+
+
+4)error
+
+ Correct
+Question: 14
+What is the output of C Program.?
+int main()
+{
+int a=0;
+a = printf(“4”);
+printf(“%d”,a);
+
+return 0;
+}
+
+
+
+A) 04
+
+
+B) compiler error
+
+Correct Answer
+C) 41
+
+
+D) 40
+
+ Incorrect
+Question: 15
+What will be the output of the following program?
+
+int main()
+{
+int i = -3;
+int k = i % 2;
+printf(“%d\n”, k);
+}
+
+
+
+1)Compile time error
+
+Correct Answer
+2)-1
+
+Incorrect Answer
+3)1
+
+
+4)Implementation defined

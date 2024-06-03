@@ -1,0 +1,376 @@
+Question: 1
+What will be the output of following code ?
+
+int main()
+{
+int a=23;
+;
+;printf(“%d”,a);
+;
+return 0;
+}
+
+
+Correct Answer
+23
+
+Incorrect Answer
+Error
+
+
+;23;
+
+
+;23
+
+ Correct
+Question: 2
+What will be the output of following code ?
+
+int main()
+{
+int ok=-100;
+-100;
+printf(“%d”,ok);
+return 0;
+}
+
+
+
+100
+
+
+ERROR
+
+Correct Answer
+-100
+
+
+0
+
+ Correct
+Question: 3
+What will be the output of following code ?
+int main()
+{
+int a=34;
+printf(“%d %i %p %n”,a,a,a,a);
+return 0;
+}
+
+
+
+34 34 00 22
+
+Correct Answer
+compilation error
+
+
+34
+
+
+None of these.
+
+ Correct
+Question: 4
+What will be the output of following code ?
+
+int main(){
+char a=’a’+’A’+’z’+’Z’;
+printf(“%c”,a);
+return 0;
+}
+
+
+
+u
+
+Correct Answer
+v
+
+
+118
+
+
+V
+
+
+w
+
+ Correct
+Question: 5
+What will be the output of following code ?
+
+int main()
+{
+int a=100;
+printf(“%d\n”+1,a);
+printf(“Value is = %d”+3,a);
+return 0;
+}
+
+
+
+ERROR
+
+
+101,
+Value is = 103
+
+Correct Answer
+d
+ue is = 100
+
+
+100
+100
+
+ Correct
+Question: 6
+What will be the output of following code ?
+int main()
+{
+int a=1,b=2,c=3;
+printf(“%d %d %d”);
+return 0;
+}
+
+
+Correct Answer
+Garbage value
+
+
+compile_time Error
+
+
+3 2 1
+
+
+None of above
+
+ Correct
+Question: 7
+What will be the output of following code ?
+
+Which is the valid identifier (variable name) to store student’s age?
+
+
+
+int student-age;
+
+Correct Answer
+int student_age;
+
+
+int -age;
+
+
+int –age;
+
+ Correct
+Question: 8
+What will be the output of following code ?
+
+int main(){
+int a,b,c;
+a=0x10; b=010;
+c=a+b;
+printf(“\nAddition is= %d”,c);
+return 0;
+}
+
+
+
+Addition is = 20
+
+Correct Answer
+Addition is = 24
+
+
+Addition is = Garbage
+
+
+ERROR
+
+ Incorrect
+Question: 9
+What will be the output of following code ?
+
+define print “%sincludehelp “
+int main()
+{
+int a=1,b=2,c=3;
+printf(print,print);
+return 0;
+}
+
+
+
+Garbage value
+
+Correct Answer
+%sincludehelp includehelp
+
+
+1 2 3
+
+Incorrect Answer
+None of the above
+
+ Correct
+Question: 10
+What will be the output of following code ?
+
+int main(){
+int m=10;
+int x=printf(“%d “,m);
+printf(“%d”,x);
+return 0;
+}
+
+
+Correct Answer
+10 3
+
+
+103
+
+
+10 2
+
+
+102
+
+ Correct
+Question: 11
+What will be the output of following code ?
+int main()
+{
+int ok=’A’+1000;;
+ok=1000+’B’;
+printf(“value of ok = %d”,ok);
+return 0;
+}
+
+
+
+Garbage value
+
+Correct Answer
+value of ok = 1066.
+
+
+Linking error
+
+
+value of ok = 1000.
+
+ Correct
+Question: 12
+What will be the output of following code ?
+
+void main(){
+int a=0;
+a=5||2|1;
+printf(“%d”,a);
+}
+
+
+Correct Answer
+1
+
+
+7
+
+
+0
+
+
+8
+
+ Correct
+Question: 13
+What will be the output of following code ?
+
+int main()
+{
+float a,b;
+a=3.0f;
+b=4.0f;
+printf(“%.0f,%.1f,%.2f”,a/b,a/b,a/b);
+return 0;
+}
+
+
+Correct Answer
+1,0.8,0.75
+
+
+0,0.7,0.75
+
+
+0,0.8,0.75
+
+
+ERROR: Invalid format specifier
+
+ Correct
+Question: 14
+What will be the output of following code ?
+
+int main()
+{
+int var=250;
+printf(“value of var = %d\n”,var);
+200+50;
+“includehelp.com”;
+printf(“%s\n”,”includehelp”);
+return 0;
+}
+
+
+
+value of var = 250
+includehelp.com
+
+Correct Answer
+value of var = 250
+includehelp
+
+
+ERROR
+
+
+value of var = 250
+Garbage
+
+ Incorrect
+Question: 15
+What will be the output of following code ?
+
+int main(){
+float a=125.50;
+int b=125.50;
+char c=’A’;
+
+printf("%d,%d,%d\n",sizeof(a),sizeof(b),sizeof(125.50));
+printf("%d,%d\n",sizeof(c),sizeof(65));
+return 0;
+}
+
+
+Incorrect Answer
+4,4,4
+1,4
+
+
+4,4,8
+1,1
+
+
+4,4,4
+1,1
+
+Correct Answer
+4,4,8
+1,4
