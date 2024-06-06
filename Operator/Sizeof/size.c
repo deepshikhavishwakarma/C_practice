@@ -7,8 +7,10 @@ void main(){
     printf("%d %d\n",sizeof("Deepshikha"), printf("Deepshikha")); //Deepshikha11 10
     printf("%d %d\n",sizeof(printf("Deepshikha")), printf("%d",sizeof("Deepshikha"))); //114 2
     printf("%d %d\n",sizeof(100+1.2),sizeof(1.2+100)); //8 8
-    printf("%d",sizeof(4));
+    printf("%d\n",sizeof(4));//4
     int a=34;
-printf("%d %d %d");
-return 0;
+    printf("%d\n");//4
+    printf("%d%d%d\n");//484201051
+    printf("%d%d%d\n");//484201051
+
 }
