@@ -1,0 +1,48 @@
+                                                                                                 C - PROGRAM STRUCTURE
+
+It illustrates[Describes] how to write a program in c-language.Every programming language is having a particular structure and we should have to 
+follow this structure.
+C-Programming structure is divided into the following parts.
+>>>[ documentation section ]
+>>> Header files / Proto types / Preprocessor
+>>> [ global variables ]
+>>>[ function declarations & definitions ]
+>>>void main() / main() / int main() 
+>>>Other statements.
+Generally documentation section consists of program headings, definitions etc and They should be represented with comments.
+The statements that are enclosed in between /* and */ are called comments. Comments never participate in program execution. They are only for user understandability or display purpose.C-Language supports comment block only.
+Eg:
+/*
+………;
+……...;
+*/
+                                                                                     C++ supports comment block and single line 
+comments.
+Eg: // …………………….
+Header files consists of function definitions, global variables, macros etc.We can declare the header files at any place of our program. But before going to use the 
+relevant function, its header file should be declared. It is recommended to declare the header files at the top of the program.Every header file should be started with #include. Here # is a preprocessor indicator.We can place header files in angled brackets < > or double quotes “ “.
+Header file never ends with semicolon(;). 
+Note: In C++, we should have to declare header  files at the top only.
+
+The variables that are declared before main() or top of the program are called global variables and they can be accessed from anywhere in our  program. They are optional. Function declarations and definitions contain  function header and body.
+
+* Every C-Program execution starts from main() function and travel towards down. Hence it is also called top-down approach.
+* Without main(), C-Program never executed but compiled.
+* main() is predefined function with user  defined body. main() doesn’t have any header  file. One program have to maintain one main()  only. We can create alternate for main(). Other statements are changed from program to program.
+
+Note: It is recommended to write C programs in  lower case only. Every statement should have to end with semicolon except header files and main().
+                                             
+                                                                                                                    printf():
+ It is a predefined function available in standard input output header file <stdio.h> 
+ It is the major output function in c.
+ Printf always refers standard output device i.e. monitor.
+ In printf, f means formatted.
+ In printf the first argument should be in “ “.
+ Printf can perform both formatted and unformatted outputs.
+Eg:
+             printf(“Hi”); <= unformatted
+             printf(“%d”,10); <=formatted
+in printf execution order is right to left but printing is left to right.
+In printf everything printed as it is except back  slash characters [ \n ] and format specifiers [%d].
+Printf always return int that indicates the no of  visible characters.
+Eg: write a c program to find string length  without using strlen() or loop.

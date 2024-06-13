@@ -1,0 +1,313 @@
+================ MCQ  =============
+------------
+1)What will be the output of the following code?
+
+int x = 10;
+if (x > 20==false) {
+    printf("x is less than 20");
+} else {
+   printf("x is 20 or more");
+}
+
+a) x is less than 20
+b) x is 20 or more
+c) Compilation error
+d) Runtime error
+
+
+
+ans:- b
+
+----------------
+2)What will be the output of the following code?
+
+
+int number = 15;
+if (number % 2 != 0) {
+    printf("Even number");
+} else {
+    printf("Odd number");
+}
+
+a) Even number
+b) Odd number
+c) Compilation error
+d) No output
+
+ans:-a
+
+-----------------
+3)What will be the output of the following C code?
+
+    #include <stdio.h>
+    void main()
+    {
+        int k = 0;
+        if (k=0)
+            printf("Hello");
+    }
+a) Compile time error
+b) Hello
+c) Nothing
+d) Varies
+
+
+
+ans:- c
+
+----------------
+4)What will be the output of the following code?
+
+int x = 10;
+if (x == 10)
+    if (x % 2 == 0)
+        printf("x is 10 and even");
+    else
+        printf("x is 10 and odd");
+else
+    printf("x is not 10");
+a) x is 10 and even
+b) x is 10 and odd
+c) x is not 10
+d) Compilation error
+
+
+
+ans:- a
+
+----------------
+5)What will be the output of the following code?
+
+int x = 7;
+if (x < 5); {
+    printf("x is greater than 5");
+}
+a) x is greater than 5
+b) No output
+c) Compilation error
+d) Runtime error
+
+
+
+ans:- a
+
+----------------
+6)What will be the output of the following code?
+int x=5;
+int y = 10;
+if ((x|y)>15) {
+    printf("y is less than 15");
+} else {
+    printf("y is 15 or more");
+}
+a) y is 15 or more
+b) y is less than 15
+c) Compilation error
+d) Runtime error
+
+
+ans:- a
+
+----------------
+7)What will be the output of the following code?
+
+int a = 20;
+if (a =a%10) {
+    printf("a is 20");
+} else {
+    printf("a is not 20");
+}
+a) a is 20
+b) a is not 20
+c) Compilation error
+d) Runtime error
+
+
+
+ans:- b
+
+----------------
+8)What will be the output of the following code?
+
+int value = 15;
+if (value < 10) 
+    printf("Greater than 10");
+ else if (value > 20) 
+    printf("Less than 20");
+    printf("Equals 30");
+
+a) Greater than 10
+b) Less than 20
+c) Equals 30
+d) No output
+
+
+
+ans:- c
+
+----------------
+9)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a--)
+            printf("True");
+        if (++a)
+            printf("False");
+    }
+a) True
+b) False
+c) TrueFalse
+d) No Output
+
+
+
+ans:- c
+
+----------------
+10)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a)
+            printf("All is Well ");
+            printf("I am Well\n");
+        else
+            printf("I am not a River\n");
+    }
+a) Output will be All is Well I am Well
+b) Output will be I am Well I am not a River
+c) Output will be I am Well
+d) Compile time errors during compilation
+
+
+
+ans:- d
+
+----------------
+11)What is the output of the C Program.?
+int main()
+{
+    if(-5)
+    {
+        printf("Germany\n");
+    }
+    if(5)
+    {
+        printf("Texas\n");
+    }
+    printf("ZING");
+
+    return 0;
+}
+A) ZING
+B) Texas
+ZING
+C) Germany
+Texas
+ZING
+D) Compiler error as a number can not be put as condition inside IF.
+
+
+
+ans:- c
+
+----------------
+12)What is the output of C Program.?
+int main()
+{
+    int a=9;
+    if(a==9);
+    {
+        printf("Ostrich\n");
+    }
+    else
+    {
+        printf("Eggs\n");
+    }
+    
+    printf("White");
+
+    return 0;
+}
+
+A) White
+B) Ostrich
+White
+C) Ostrich
+Eggs
+White
+D) Compiler Error
+
+
+
+
+ans:- d
+
+
+----------------
+13)What is the output of C Program.?
+int main()
+{
+    int a=5, b=8;
+    
+    if( a==5 && (b     ) )
+    {
+        printf("Gorilla Glass=");
+    }
+    printf("%d %d", a, b);
+
+    return 0;
+}
+
+A) 5 8
+B) 5 9
+C) Gorilla Glass=5 8
+D) Gorilla Glass=5 9
+
+ans:- c
+
+----------------
+14).What will be the value of result after executing the following code?
+#include<stdio.h>
+int main(){
+int num = 25;
+int result;
+if (!(num % 2 != 0)) {
+    result = num * 2;
+} else {
+    result = num * 3;
+}
+}
+a) 50
+b) 75
+c) 30
+d) 45
+
+
+
+ans:- B
+
+
+----------------
+15).What will be the output of the following code?
+
+int x = 5, y = 10;
+if (x < 10 && y > 5) {
+    printf("Condition satisfied\n");
+} else {
+    printf("Condition not satisfied\n");
+}
+a) Condition satisfied
+b) Condition not satisfied
+c) Compilation Error
+d) Runtime Error
+
+
+
+
+ans:- a

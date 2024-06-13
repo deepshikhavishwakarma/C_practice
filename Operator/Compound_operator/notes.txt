@@ -1,0 +1,7 @@
+Compound assignment / shorthand operators:
++=, -=, *=, %=, /=, ~=, <<=, >>=,….
+int a=10, b=25;
+float c=5;
+a+=5; i.e. a=a+5  a=10+5 a=15
+b*=4; i.e. b=b*4  b=25*4 b=100
+c/=2; i.e. c=c/2  c=5/2  C=2.500000
