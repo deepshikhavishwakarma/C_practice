@@ -1,0 +1,30 @@
+                                    Write a C program to print square pattern program
+1. Write a C program to print a square pattern where each row contains the same digit and the digit increments with each row. The size of the square pattern is determined by the number of rows (or columns) which will be provided by the user.
+
+Sample Input
+5
+Sample Output
+1 1 1 1 1
+2 2 2 2 2
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
+
+Constraints:
+The program should handle invalid inputs gracefully (i.e., inputs outside the specified range or non-integer inputs).
+Explanation
+1. The user inputs a positive integer ?? n. 2. The program prints a square pattern of size ?? × ?? n×n. 3. Each row ?? i (1-based index) contains the digit ?? i, repeated ?? n times.
+
+Note:
+Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
+
+Limits
+Memory Limit: 256 MB
+
+Source Limit: 1024 KB
+
+Scoring
+Score is assigned if any testcase passes
+
+Allowed Languages
+python, c, csharp, java, javascript

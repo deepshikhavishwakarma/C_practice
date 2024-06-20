@@ -46,3 +46,32 @@ in printf execution order is right to left but printing is left to right.
 In printf everything printed as it is except back  slash characters [ \n ] and format specifiers [%d].
 Printf always return int that indicates the no of  visible characters.
 Eg: write a c program to find string length  without using strlen() or loop.
+
+Syntax:
+int printf(“ [text] [ conversion characters / format specifiers ]
+“ [ , variables ] [ , expressions ] )
+
+
+                                      BACK SLASH / ESCAPE SEQUENCE CHARACTERS
+
+
+They started with back slash [ \ ].
+They used to format the outputs.
+They participated in program execution but not 
+displayed in output. Hence they are also called 
+escape sequence characters.
+Each back slash character=1 byte i.e. one character.
+BACK SLASH CHARACTER DESCRIPTION
+\a Alert [ beep sound ]
+\b Back space
+\n New line character
+\t Tab space
+\r Carriage return[beginning of 
+line]
+\f
+Form feed 
+\v Vertical tab 
+\0 Null char
+\\ \ [ invalid ]
+\k k [ invalid ]
+
