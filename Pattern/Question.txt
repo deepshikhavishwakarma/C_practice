@@ -1,4 +1,38 @@
                                     Write a C program to print square pattern program
+
+
+
+
+
+Level 1-Write a C program to print square pattern program
+Print a square pattern where each row alternates between 1 and 2.
+
+Sample Input
+5
+Sample Output
+1 2 1 2 1
+2 1 2 1 2
+1 2 1 2 1
+2 1 2 1 2
+1 2 1 2 1
+Explanation
+: Each row contains alternating 1s and 2s, starting with 1. This is done by checking if the column index is even or odd.
+
+Level 2-Write a C program to print square pattern program
+The program aims to print the sequence of numbers from 5 to 1, repeated a specific number of times (in this case, 5 times).
+
+Sample Input
+5
+Sample Output
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+Explanation
+Each row contains numbers from n down to 1, repeated for n rows. This is done by iterating from n to 1 for each row and column.
+
+
 1. Write a C program to print a square pattern where each row contains the same digit and the digit increments with each row. The size of the square pattern is determined by the number of rows (or columns) which will be provided by the user.
 
 Sample Input
@@ -15,16 +49,139 @@ The program should handle invalid inputs gracefully (i.e., inputs outside the sp
 Explanation
 1. The user inputs a positive integer ?? n. 2. The program prints a square pattern of size ?? × ?? n×n. 3. Each row ?? i (1-based index) contains the digit ?? i, repeated ?? n times.
 
+
+
+2. 6. Write a C program to print square pattern program using * 
+
+1 2 3 4
+2 4 6 8
+3 6 9 12
+4 8 12 16
+
+
+
+3. Write a C program to print square pattern program using * 
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+
+4. Write a C program to print  pattern program using * 
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+5. Write a C program to print square pattern program using * 
+
+11 12 13 14
+21 22 23 24
+31 32 33 34
+41 42 43 44
+
+
+6. Write a C program to print square pattern program 
+
+2  4  6   8  10
+12 14 16 18 20
+22 24 26 28 30
+32 34 36 38 40
+42 44 46 48 50
+
+
+7. Write a C program to print square pattern program 
+
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+
+8. Write a C program to print square pattern program 
+
+1 2 3 4 
+2 3 4 5 
+3 4 5 6 
+4 5 6 7 
+
+
+9. Write a C program to print square pattern program 
+
+
+1 2 3 4 5 6 7 8 
+8 7 6 5 4 3 2 1 
+1 2 3 4 5 6 7 8 
+8 7 6 5 4 3 2 1 
+1 2 3 4 5 6 7 8 
+
+
+10. Write a C program to print square pattern program 
+
+1 1 1 1 1 1 
+1 1 1 1 2 2 
+1 1 1 3 3 3 
+1 1 4 4 4 4 
+1 5 5 5 5 5 
+6 6 6 6 6 6 
+
+
+11. Write a C program to print square pattern program 
+
+  1  0  0  0  0
+  2  1  0  0  0
+  2  2  1  0  0
+  2  2  2  1  0
+  2  2  2  2  1
+
+
+8. Write a C program to print square pattern program 
+
+
+8. Write a C program to print square pattern program 
+
+
+8. Write a C program to print square pattern program 
+
+
+8. Write a C program to print square pattern program 
+
+
+
+
+
+
+
+
+7. Write a C program to print square pattern program using * 
+
+1 2 4 7 11
+2 3 5 8 12
+
+
+
+
+
+
+Number Pattern 1 (point 5)
+Write the logic for the bellow program
+
+Sample Input
+5
+Sample Output
+1
+2 6
+3 7 10
+4 8 11 13
+5 9 12 14 15
+Constraints:
+.
+Explanation
+.
+
 Note:
 Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
-
-Limits
-Memory Limit: 256 MB
-
-Source Limit: 1024 KB
-
-Scoring
-Score is assigned if any testcase passes
-
-Allowed Languages
-python, c, csharp, java, javascript
