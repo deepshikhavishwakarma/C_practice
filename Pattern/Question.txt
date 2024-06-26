@@ -292,6 +292,34 @@ Explanation
   1 0 1 0
   0 1 0 1 0 
 
+21. Write a logic for the following pattern in c?
+
+  0  
+  0 1
+  0 1 0
+  0 1 0 1
+  0 1 0 1 0
+  0 1 0 1 0 1
+
+  22. Write a logic for the following pattern in c?
+
+    1
+    2  6
+    3  7  10
+    4  8  11  13
+    5  9  12  14  15
+
+
+23.Write a logic for the following pattern in c?
+
+
+    0
+    0 1 
+    0 1 1
+    0 1 1 2
+    0 1 1 2 3    (fibonacci series)
+
+
 
 
 
