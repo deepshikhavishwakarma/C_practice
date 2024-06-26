@@ -2,8 +2,6 @@
 
 
 
-
-
 Level 1-Write a C program to print square pattern program
 Print a square pattern where each row alternates between 1 and 2.
 
@@ -32,6 +30,83 @@ Sample Output
 Explanation
 Each row contains numbers from n down to 1, repeated for n rows. This is done by iterating from n to 1 for each row and column.
 
+
+
+
+Pattern Matching LVL3
+Write a c program to print the pattern
+
+Sample Input
+7
+Sample Output
+1
+2   3
+4   5   6
+7   8   9  10
+11 12 13
+14 15
+16
+
+
+
+
+
+Pattern Matching LVL 4
+Write a c program to print given pattern
+
+Sample Input
+5
+Sample Output
+1 2 3 4 5
+2 3 4 5 1
+3 4 5 1 2
+4 5 1 2 3
+5 1 2 3 4
+Constraints:
+.
+Explanation
+The outer loop (for (int i = 0; i < rows; i++)) iterates through each row. The inner loop (for (int j = 0; j < rows; j++)) prints numbers in each row, calculated using modular arithmetic to achieve the cyclic pattern ((i + j) % rows + 1).
+
+
+
+
+Pattern Matching LVL 5
+Write a c program for the following pattern
+
+Sample Input
+5
+Sample Output
+1 2 3 4 5
+0 3 4 5 6
+0 0 5 6 7
+0 0 0 7 8
+0 0 0 0 9
+Constraints:
+.
+Explanation
+The outer loop (for (int i = 0; i < rows; i++)) iterates through each row. The inner loop (for (int j = 0; j < rows; j++)) prints numbers in each row based on the pattern logic. If j (column index) is less than i (row index), it prints 0 indicating positions that are not incremented. Otherwise, it prints j - i + 1, which calculates the number starting from 1 and incrementing for each position.
+
+
+
+
+Pattern Matching LVL 6
+Write a c program for the following pattern
+
+Sample Input
+4
+Sample Output
+1
+1 * 2
+1 * 2 * 3
+1 * 2 * 3 * 4
+Constraints:
+.
+Explanation
+Each line in the output corresponds to an iteration of a loop. The outer loop controls the number of lines printed, iterating from 1 to 4 in this case. For each iteration i, an inner loop runs from 1 to i, printing numbers followed by an asterisk (*) to separate them. The numbers start from 1 and increment sequentially up to i.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
 
 1. Write a C program to print a square pattern where each row contains the same digit and the digit increments with each row. The size of the square pattern is determined by the number of rows (or columns) which will be provided by the user.
 
@@ -87,7 +162,7 @@ Explanation
 
 6. Write a C program to print square pattern program 
 
-2  4  6   8  10
+2  4  6  8  10
 12 14 16 18 20
 22 24 26 28 30
 32 34 36 38 40
@@ -139,15 +214,52 @@ Explanation
   2  2  2  2  1
 
 
+12. Write a C program to print square pattern program 
+
+   1   3   5   7   9
+  11  13  15  17  19
+  21  23  25  27  29
+  31  33  35  37  39
+  41  43  45  47  49
+
+
+
+13. Write a C program to print square pattern program 
+
+1 0 1 0 1
+1 0 1 0 1
+1 0 1 0 1
+1 0 1 0 1
+1 0 1 0 1
+
+14. Write a C program to print square pattern program 
+
+1 1 2 1 3 1
+1 2 2 2 3 2
+1 3 2 3 3 3 
+1 4 2 4 3 4
+1 5 2 5 3 5
+
+15. Write a C program to print square pattern program 
+  
+  1 6 11 16 21
+  2 7 12 17 22
+  3 8 13 18 23
+  4 9 14 19 24
+  5 10 15 20 25
+
+
+
+16. Write a C program to print square pattern program 
+
+5 10 15 20 25
+4 9  14 19 24
+3 8  13 18 23
+2 7  12 17 22
+1 6  11 16 21
+
 8. Write a C program to print square pattern program 
-
-
 8. Write a C program to print square pattern program 
-
-
-8. Write a C program to print square pattern program 
-
-
 8. Write a C program to print square pattern program 
 
 
@@ -185,3 +297,6 @@ Explanation
 
 Note:
 Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
+
+
+
