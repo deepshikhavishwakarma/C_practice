@@ -22,3 +22,46 @@ The Even elements are :
 The Odd elements are :
 
 25 47
+
+
+
+
+2. Display Array in Reverse Order
+Write a program in C to read n number of values in an array and display it in reverse order.
+Sample Input
+Input the number of elements to store in the array :3
+
+Input 3 number of elements in the array :
+
+element - 0 : 2
+
+element - 1 : 5
+
+element - 2 : 7
+Sample Output
+The values store into the array
+are :
+2 5 7
+
+The values store into the array in reverse are :
+7 5 2
+
+
+
+
+
+
+3. Sum of all elements
+Write a program in C to find the sum of all elements of the array.
+Sample Input
+Input the number of elements to be stored in the array :3
+
+Input 3 elements in the array :
+
+element - 0 : 2
+
+element - 1 : 5
+
+element - 2 : 8
+Sample Output
+Sum of all elements stored in the array is : 15
