@@ -105,6 +105,24 @@ Explanation
 Each line in the output corresponds to an iteration of a loop. The outer loop controls the number of lines printed, iterating from 1 to 4 in this case. For each iteration i, an inner loop runs from 1 to i, printing numbers followed by an asterisk (*) to separate them. The numbers start from 1 and increment sequentially up to i.
 
 
+Number Pattern (Level 7)
+Write the logic for the bellow program
+
+Sample Input
+5
+Sample Output
+1
+2 6
+3 7 10
+4 8 11 13
+5 9 12 14 15
+Constraints:
+
+Explanation
+
+
+Note:
+Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -320,14 +338,219 @@ Explanation
     0 1 1 2 3    (fibonacci series)
 
 
+24. 
+
+
+25. 7. Write a C program to print square pattern program 
+
+  1  0  1  0  1
+  0  1  0  1  0
+  1  0  1  0  1
+  0  1  0  1  0
+  1  0  1  0  1
+
+26. Write a C program to print square pattern program 
+
+1 0 1 0 1
+0 0 0 0 0
+1 0 1 0 1
+0 0 0 0 0
+1 0 1 0 1
+
+27. Write a C program to print square pattern program 
+
+  0  1  0  1  0
+  0  0  0  0  0
+  0  1  0  1  0
+  0  0  0  0  0
+  0  1  0  1  0
+
+28. 13. Write a C program to print square pattern program 
+
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
+
+29. Write a c Program to print following Pattern
+
+Program
+Sample Input
+              A
+           A  B  C
+        A  B  C  D  E
+     A  B  C  D  E  F  G
+  A  B  C  D  E  F  G  H  I
 
 
 
+30. Write a c Program to print following Pattern
+
+Program
+Sample Input
+              1
+           1  2  3
+        1  2  3  4  5
+     1  2  3  4  5  6  7
+  1  2  3  4  5  6  7  8  9
+
+
+31. Write the logic for the below program ?
+
+        1
+      2 4
+    3 6 9
+ 4 8 12 16
+
+
+ 32. Write the logic for the below program ?
+
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
+
+ 33. Write the logic for the below program ?
+
+   A B C D E F G 
+   A B C D E F G 
+   A B C D E F G 
+   A B C D E F G 
+
+
+ 34. Write the logic for the below program ?
+
+   a b c d e f g h i
+   a b c d e f g h i
+   a b c d e f g h i
+   a b c d e f g h i
+   a b c d e f g h i
+
+   35. Write the logic for the below program ?
+   
+   a a a a a
+   b b b b b
+   c c c c c
+   d d d d d
+   e e e e e
+   f f f f f
+
+   36. Write the logic for the below program ?
+
+   A A A A A A A 
+   B B B B B B B
+   C C C C C C C
+   D D D D D D D
+   E E E E E E E
+
+37. Write the logic for the below program ?
+
+   A B C D E F G  
+   a b c d e f g
+   A B C D E F G  
+   a b c d e f g
+   A B C D E F G  
+   a b c d e f g
+   
+38. Write the logic for the below program ?
+
+A b c D e F g H i J k L m N o
+A b c D e F g H i J k L m N o
+A b c D e F g H i J k L m N o
+A b c D e F g H i J k L m N o
+A b c D e F g H i J k L m N o
+
+39.Write the logic for the below program in c?
 
 
 
+1
+1  2   1
+1  2   3   2   1
+1  2   3   4   3   2   1
+1  2   3   4   5   4   3   2   1
 
 
+40. Write the logic for the below program in c ?
+
+
+
+                  1
+               4  9
+            16 25 36   
+        49 64 81 100
+
+
+41. Write a logic for the following pattern in c?
+
+    A 
+    B A
+    C B A
+    D C B A
+    E D C B A
+
+42.Write the logic for thee below pattern in c ?
+
+
+   1   2   3 
+   6   5   4
+   7   8   9
+   12 11  10
+   13 14  15 
+
+
+43 .Write the logic for thee below pattern in c ?
+
+A B C D E
+A       E
+A       E
+A       E
+A B C D E
+
+
+44 .Write the logic for thee below pattern in c ?
+
+              A
+           A     C
+        A           E
+     A                 G
+  A  B  C  D  E  F  G  H  I
+
+45.Write the logic for thee below pattern in c ?
+
+  * * * * * * * * * 
+    *           *
+      *       *
+        *   *
+          *
+
+46. Write the logic for thee below pattern in c ?
+
+
+//      *
+//      *
+//  * * * * *
+//      *
+//      *
+
+47. Write the logic for thee below pattern in c ?
+
+
+//  * * * * *
+//  *
+//  * * * * *
+//  *
+//  * * * * *
+
+
+48. Write the logic for thee below pattern in c ?
+
+
+//  * * * * *
+//  *
+//  * * * * *
+//  *
+//  *
 
 7. Write a C program to print square pattern program using * 
 
@@ -339,24 +562,6 @@ Explanation
 
 
 
-Number Pattern 1 (point 5)
-Write the logic for the bellow program
-
-Sample Input
-5
-Sample Output
-1
-2 6
-3 7 10
-4 8 11 13
-5 9 12 14 15
-Constraints:
-.
-Explanation
-.
-
-Note:
-Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
 
 
 
