@@ -65,3 +65,16 @@ element - 1 : 5
 element - 2 : 8
 Sample Output
 Sum of all elements stored in the array is : 15
+
+
+
+4. prime numbers
+Write a C program to store some integers in an array and print all the prime numbers available in that array
+
+
+Sample Input
+1 2 3 4 5
+
+
+Sample Output
+2 3 5

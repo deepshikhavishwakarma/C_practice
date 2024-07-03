@@ -1,0 +1,43 @@
+1 . 2nd largest element
+Write a C program to find the 2nd largest element from a array.
+Sample Input
+Input as : 
+Enter array size : 5
+Enter 5 elements : 1 2 3 4 5
+Sample Output
+Output as : 
+2nd largest element is : 4
+
+2. ascending order
+Write a C program to sort an array in ascending order.
+Sample Input
+Input as : 
+Enter size of array : 5
+Enter 5 elements : 5 4 6 3 7
+Sample Output
+Output : 
+Before sorting :
+5 4 6 3 7
+After Sorting in ascending order : 3 4 5 6 7
+
+
+3. second smallest element
+Write a program in C to find the second smallest element in an array. 
+Sample Input
+Input the size of array : 5
+
+Input 5 elements in the array (value must be <9999) :
+
+
+element - 0 : 0
+
+element - 1 : 9
+
+element - 2 : 4
+
+element - 3 : 6
+
+element - 4 : 5
+Sample Output
+Expected Output :
+The Second smallest element in the array is : 4
