@@ -552,6 +552,35 @@ A B C D E
 //  *
 //  *
 
+49. Write the logic for thee below pattern in c ?
+
+
+//  * * * * *
+//  *       *
+//  * * * * *
+//  *       *
+//  *       *
+
+
+50. Write the logic for thee below pattern in c ?
+
+
+//  *       *
+//  *       *
+//  * * * * *
+//  *       *
+//  *       *
+
+
+51. Write the logic for thee below pattern in c ?
+
+
+*               *
+  *           *
+    *       *
+      *   *
+        *
+
 7. Write a C program to print square pattern program using * 
 
 1 2 4 7 11
