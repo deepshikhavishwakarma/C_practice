@@ -1,0 +1,26 @@
+1. Delete an element
+Write a program in C to delete an element at desired position from an array. 
+Sample Input
+Input the size of array : 5 
+
+Input 5 elements in the array in ascending order: 
+
+element - 0 : 1 
+
+element - 1 : 2 
+
+element - 2 : 3 
+
+element - 3 : 4 
+
+element - 4 : 5 
+
+Input the position which to delete: 3 
+Sample Output
+Expected Output : 
+
+The new list is : 1 2 4 5 
+
+
+
+2. 

@@ -155,10 +155,5 @@ printf("\n");
   for(int i=0;i<4;i++){
       printf("%6d",b13[i]);    //9 0 0 0
   }
-  
-  
-  
-  
-
     return 0;
 }

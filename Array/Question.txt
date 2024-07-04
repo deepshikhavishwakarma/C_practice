@@ -1,3 +1,19 @@
 1. Finding Array size
 
-2. 
+2.Read n elements into array and find the elements sum and avg.
+
+3.Read n elements into array and arrange array elements in reverse order. 
+   a=> reverse      (filename ->  reverseArray.c)
+   b=> reverse using 3rd variable               (filename ->  revArray2.c)
+   c=> reverse without using 3rd variable        (filename ->  revArray3.c)
+
+
+4. Linear search: find index and cell of element.
+
+5. Finding nth occurrence of array element. 
+
+
+6.Read a stu id, name, 6 sub marks and find stu tot, avg and pass / fail using array.
+
+7. Decimal to binary conversion 20 = 0000
+
