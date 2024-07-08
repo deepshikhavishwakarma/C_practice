@@ -1,0 +1,85 @@
+
+
+1. Write a C program to count the number of alphabet present in a given String .
+
+Input as : Apple
+
+Output as : The count of alphabet is : 5
+
+========================================================================================================
+
+
+2. Write a C program to print the reverse of a given String 
+
+Input as :
+
+Enter a String : NareshIT
+
+Output as : 
+
+The reverse of the String is : TIhseraN
+
+
+
+========================================================================================================
+
+
+3. Write a C program to count the Count the vowel, Consonant, Digit and Special Character in a given String .
+
+Input as : 
+
+Enter a String : Nareshit @123
+
+Output as :
+
+Vowel count is : 3
+
+Consonant count is : 5
+
+Digit count is : 3
+
+Special Character count is : 1
+
+
+
+========================================================================================================
+ 4. Vowel present or Not
+
+
+Write a C program to check is the String contains any vowel or not.
+
+
+Input as : 
+
+Enter a String : Apple
+
+Output as : 
+
+This String contains vowel.
+
+
+Input as : 
+
+Enter a String : Rhythm
+
+Output as : 
+
+There is no vowel present in this String.
+========================================================================================================
+
+
+5.Write a C program to sort the string data and print it.
+
+Input as : 
+
+Enter a String : apple
+
+Output as : 
+
+After Sorting the String is : aelpp
+
+
+
+
+----------------------------------------more about String---------------------------------------------------------------
+

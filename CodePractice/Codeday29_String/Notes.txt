@@ -1,0 +1,68 @@
+-> A group of characters is called string. 
+-> It is one dimensional character array. 
+-> It is alpha-numeric. 
+-> It is an implicit pointer. 
+-> It is a derived data type. 
+
+
+  Note:
+
+     One byte should be left for Null char( \0 ). Otherwise we are getting garbage or junk
+        values. Null char indicates string is completed. 
+    -> String variable Size can’t be less than string. Otherwise we are getting error. 
+    -> Using = operator, we can’t copy a string into another. We have to use strcpy() or copy character by character       manually. 
+    -> Using == (comparison) operator, we can’t compare two strings. Use strcmp() or compare the characters one by one
+      manually. 
+      
+            Syntax:
+                    char variable [size] = “string”;
+
+                    or
+                    char variable[ ]=”string”;
+                    Eg: char st[5] = “Rama”;
+
+Note: String is implicit pointer because of string variable stores base address. String declaration methods:
+                    
+                    char st [5] = ”rama”; Ok
+
+                    char st [20] = ” Naresh It”; Ok
+
+                    char st [4] = { ‘r’,‘a’,‘m’ }; Ok --> char array. 
+                    
+                    char st[3]= “ram”; It gives garbage values in printing. 
+                    
+                    char st [3] = “rama”; error
+
+                    char st[0]; error
+                
+                    char st[0]= ”abc”; Ok
+
+                    char st[-5]; error
+            
+                    char st[5.5]; error
+
+                    char st[5%3]; Ok -> char st[2];
+                
+                    char st[3+2]; -> st[5] -> Ok
+            
+                    char st[ ] = ”Ram”; Ok. 
+                    
+                    char st[ ] ; error
+            
+                    int n=20;
+                    char st[n]; No
+
+                    #define n 20
+
+                    char st[n]; Ok
+
+Note: String variable size always constant positive integer value. 
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+gets(): It reads the string with spaces until pressing enter key. 
+
+puts():It prints the given string with \n. they doesn’t need any conversion char or format specifiers. Hence they are called unformatted functions. 
+
+Both belongs to <stdio.h>
