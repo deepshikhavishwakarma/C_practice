@@ -1,0 +1,24 @@
+Two dimensional arrays:
+Array with several rows and columns. Array with two subscripting operators [ ] [ ].
+It is array of arrays. i.e. collection of one-dimensional
+arrays.
+It is implicit double pointer.
+It is a n*n matrix. Syntax:
+datatype variable [ rows ] [ columns ] = {elements} ;
+Eg:
+int a[ 2 ][ 3 ] = { { 10, 20 , 30 } , { 40 ,50, 60 } }
+
+In two dimensional array the rows/first subscript
+is working as array of pointers and they stores
+first column address of each row. Hence it is an
+implicit/internal double pointer. In the above example, To print the
+first row, first column value, we have
+to use
+
+printf(“%d”
+, a[0] [0]);  10
+Internally how this statement is working ?
+a[0] means value at a[0] i.e. 65500. 65500 + [0] col  65500 + 0 * 2  65500 
+value at 65500 is 10.
+Index no
+Int si
