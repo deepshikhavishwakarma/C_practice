@@ -1,0 +1,87 @@
+1).Write a c program to check the String is Palindrome  or Not 
+========================================================================================================
+2).Write a c Program to check whether two given strings are anagram of each other or not.
+
+input 1:- listen
+
+input 2:- silent
+
+this are anagram String
+
+
+input 1:- Jack
+
+input 2:- Jake
+
+this is not are anagram String
+========================================================================================================
+3).Write a c program to print all the frequency of character present
+
+For Example:-
+
+String s=" Hello Everyone"
+
+
+Output as :-
+
+
+The frequency of H is 1
+
+The frequency of e is 3
+
+The frequency of l is 2
+
+The frequency of o is 2
+
+The frequency of   is 1  --------THIS IS FOP CHECKING THE SPACE COUNT 
+
+The frequency of E is 1
+
+The frequency of v is 1
+
+The frequency of r is 1
+
+The frequency of y is 1
+
+The frequency of n is 1
+
+========================================================================================================
+4). String in Ascending
+
+Write a c program to sort the String in ascending order ,after sorting print the result in string
+
+format? 
+
+
+Input as :- "CoreJava"
+
+
+output as:-
+
+Before sorting the array
+
+CoreJava
+
+After sorting the array
+
+CJaaeorv
+
+========================================================================================================
+5). Descending Order
+Write a c program to sort the String in Descending Order  ,after sorting print the result in string
+
+format?  
+
+
+Input as :- "CoreJava"
+
+
+Before sorting the array
+
+CoreJava
+
+
+After sorting the array
+
+vroeaaJC
+
