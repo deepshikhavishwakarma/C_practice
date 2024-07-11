@@ -1,0 +1,130 @@
+
+ Program 1
+1 point
+
+Create a program that compresses a string by replacing repeated characters with a count of the repetition (e.g., "aaabbbcc" becomes "a3b3c2").
+
+
+Input as : 
+
+Enter a String : aaabbccdae
+
+
+Output as : 
+
+Resulting string is : a4b2c2
+
+
+
+==========================================================================================================================
+ Palindrome String
+1 point
+
+Check the given String is palindrome or not.
+
+
+Example 1:
+
+Input as : 
+
+Enter a String :  radar
+
+
+Output as : 
+
+radar is a palindrome string.
+
+
+Example 2:
+
+Input as : 
+
+Enter a String : alfha
+
+
+Output as : 
+
+radar is a not palindrome string.
+
+
+Check the given String is palindrome or not.
+
+
+Example 1:
+
+Input as : 
+
+Enter a String :  radar
+
+
+Output as : 
+
+radar is a palindrome string.
+
+
+Example 2:
+
+Input as : 
+
+Enter a String : alfha
+
+
+Output as : 
+
+radar is a not palindrome string.
+
+==========================================================================================================================
+
+
+Write a program to find and count all palindromic substrings in a given string.
+
+
+Input as : 
+
+Enter a String : madam
+
+
+Output as : 
+
+Palindromic substring : madam
+
+Palindromic substring : ada
+
+Total palindromic substrings are : 2
+
+
+
+==========================================================================================================================
+
+
+Write a C program to find out the sum of the numbers which is present in a given string.
+
+
+Input as : 
+
+Enter a String : TS12ab345
+
+
+Output as : 
+Sum Of the numbers is : 15
+
+
+
+==========================================================================================================================
+ Program 1
+1 point
+
+Write a C program to convert each word first alphabet to Upper case.
+
+
+Input as : 
+
+Enter a String : i am a student of nareshit
+
+
+Output as : 
+
+Sum Of the numbers is : I Am A Student Of Nareshit
+
+
+
