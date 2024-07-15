@@ -591,6 +591,14 @@ A B C D E
 1 2 3 4 5 
 
 
+53. Write the logic for thee below pattern in c ?
+  1 2 3 4 5
+  0 3 4 5 6
+  0 0 5 6 7
+  0 0 0 7 8
+  0 0 0 0 9 
+
+
 7. Write a C program to print square pattern program using * 
 
 1 2 4 7 11

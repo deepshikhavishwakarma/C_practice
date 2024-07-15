@@ -1,0 +1,578 @@
+================ MCQ  =============
+------------
+1)What will be the output of the following code?
+
+#include<stdio.h>
+int main(){
+int arr[] = {1, 2, 3, 4, 5};
+int max = arr[0];
+for (int i = 1; i < 5; i++) {
+    if (arr[i] < max) {
+        max = arr[i];
+    }
+}
+printf("%d", max);
+return 0;
+}
+
+A) 1
+B) 3
+C) 4
+D) 5
+
+
+ans:- A
+
+----------------
+2)What will be the output of the following code?
+
+#include<stdio.h>
+int main(){
+int arr[] = {2, 3, 5, 7, 11};
+int product = 1;
+for (int i = 0; i < 5; i++) {
+    if (arr[i] % 2 == 0) {
+        product *= arr[i];
+    }
+}
+printf("%d", product);
+
+return 0;
+}
+
+
+A) 14
+B) 3
+C) 10
+D) 2
+
+
+ans:-D
+
+
+-----------------
+3)What will be the output of the following code?
+
+#include<stdio.h>
+int main(){
+int arr[5] = {1, 2, 3, 4, 5};
+for (int i = 0; i < 5; i++) {
+    arr[i] = arr[i] * arr[i];
+}
+printf("%d", arr[3]);
+
+
+return 0;
+}
+
+A) 4
+B) 8
+C) 16
+D) 25
+
+
+ans:-C 
+
+----------------
+4)What will be the output of the following code?
+
+#include<stdio.h>
+int main(){
+int arr[5] = {5, 4, 3, 2, 1};
+for (int i = 0; i < 5 / 2; i++) {
+    int temp = arr[i];
+    arr[i] = arr[5 - i - 1];
+    arr[5 - i - 1] = temp;
+}
+printf("%d", arr[1]);
+
+return 0;
+}
+
+A) 1
+B) 2
+C) 4
+D) 5
+
+
+ans:- B
+
+----------------
+5)Which of the following code snippets correctly reverses the elements of the array and the size of Array is n ?
+
+A)
+int temp;
+for (int i = 0; i < n / 2; i++) {
+    temp = arr[i];
+    arr[i] = arr[n - i - 1];
+    arr[n - i - 1] = temp;
+}
+
+B)
+int temp;
+for (int i = 0; i < n; i++) {
+    temp = arr[i];
+    arr[i] = arr[n - i - 1];
+    arr[n - i - 1] = temp;
+}
+
+C)
+int temp;
+for (int i = n; i >= 0; i--) {
+    temp = arr[i];
+    arr[i] = arr[n - i - 1];
+    arr[n - i - 1] = temp;
+}
+
+D)
+int temp;
+for (int i = n / 2; i >= 0; i--) {
+    temp = arr[i];
+    arr[i] = arr[n - i - 1];
+    arr[n - i - 1] = temp;
+}
+
+
+ans:- A
+
+----------------
+6)What will be the output of the following C code snippet?
+
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    for(i = 1; i <= 4; i++) {
+        for(j = 1; j <= 5; j++) {
+            if(j >= i)
+                printf("* ");
+            else
+                printf("  ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+A)
+* * * * *      
+  * * * * 
+    * * * 
+      * *
+
+
+B)
+* * * * * 
+* * * * 
+* * * 
+* *
+*
+
+C)
+      * 
+    * * 
+  * * * 
+* * * *
+
+
+D)
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+	*
+
+
+
+
+
+ans:- A
+
+----------------
+7)What will be the output of the following C code snippet?
+
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    for(i = 1; i <= 3; i++) {
+        for(j = i; j <= 3; j++) {
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+A)            
+1 2 3 
+2 3 
+3
+
+B)
+1 2 3 
+1 2 
+1
+
+C)
+3 2 1 
+3 2 
+3
+
+D)
+3 2 1 
+2 1 
+1
+
+
+
+ans:- A
+
+----------------
+8)What will be the output of the following C code snippet?
+
+#include<stdio.h>
+int main(){
+char str[] = "OpenAI";
+str[4] = '\0';
+printf("%s", str);
+
+
+return 0;
+}
+
+A) OpenAI
+B) Open
+C) Ope
+D) nAI
+
+
+ans:-B
+
+----------------
+9) what is the output following code?
+#include <stdio.h>
+
+int main() {
+  
+  char arr[]="1234";
+  int sum=0;
+  for(int i=0;i<5;i++)
+  sum+=arr[i];
+  printf("%d",sum);
+  
+  return 0;
+}
+
+A) 1234
+B) 10
+C) 202
+D) 495051520
+
+
+ans:- C
+
+----------------
+10)What will be the output of the following piece of code?
+#include <stdio.h>
+
+int main() {
+  for(i = 0;i < 10; i++);
+  printf("%d", i);
+  return 0;
+}
+A) 10
+B) 0123456789
+C) Syntax error
+D) Infinite loop
+
+
+
+ans:- C
+
+----------------
+11)What will be the output of the following code snippet?
+
+#include <stdio.h>
+
+int main() {
+  int arr[5] = {1, 2, 3, 4, 5};
+printf("%d", arr[5]);
+  return 0;
+}
+
+A) 5
+B) 0
+C) Garbage value
+D) Compilation error
+
+
+
+ans:- C
+
+----------------
+12)What will be the output of the following code snippet?
+
+
+int arr[2][2] = {
+    {1, 2},
+    {3, 4}
+};
+printf("%d", arr[0][0] + arr[1][1]);
+
+
+A) 1
+B) 3
+C) 7
+D) 5
+
+
+ans:- D
+
+
+----------------
+13)What will be the output of the following code snippet?
+
+#include <stdio.h>
+
+int main() {
+  char str[] = "World";
+printf("%c", str);
+  return 0;
+}
+
+A) W
+B) No Output
+C) World
+D) Compilation error
+
+ans:- B
+
+----------------
+14) What is the minimum element in Array
+
+#include<stdio.h>
+int main()
+{
+	int arr[5]={1,10,100,1000};
+}
+
+A) 10
+B) 0
+C) 1
+D) Error
+
+ans:-B
+----------------
+15)What will be the output of the following code snippet?
+
+#include <stdio.h>
+
+int main() {
+  char str[] = "Hello";
+str[2] = 'X';
+printf("%s", str);
+  return 0;
+}
+
+A) HelXo
+B) Hello
+C) HeXlo
+D) Compilation error
+
+
+ans:- C
+
+
+================ Set A==============
+
+Program 1 ( Point 5 )
+
+ Write a  C program to count the vowels and consonant of a given String.
+
+Input: elegant
+
+output:
+vowel count is :3
+consonant count is :4 
+
+
+
+
+--------------------
+
+Program 2 ( Point 5 )
+
+Write a c program for the following pattern
+
+
+   1 2 3 4 5
+
+   0 3 4 5 6
+
+   0 0 5 6 7
+
+   0 0 0 7 8
+
+   0 0 0 0 9
+
+
+
+
+
+----------------------
+Program 4 ( Point 15 )
+
+write a c program to print all the unique elements in the given array.
+
+Intput: arr[]={2,3,3,5,3,4,1,7,7,2}
+Output:  5,4,1
+
+
+----------------------
+Program 3 ( Point 10 )
+
+
+Write a program in C to find out the duplicate element in a given array.
+Testcase:
+--------  
+The given array is: 
+arr[]={2,3,3,5,3,4,1,7,2} 
+The duplicate numbers are : 2,3
+
+
+
+================ Set B ==============
+
+Program 1 ( Point 5 )
+
+
+write a C program to check the given string is palindrome or not ?
+
+Input: liril
+output:liril is palindrome
+
+input :exam
+output:exam is not a palindrome
+
+
+
+--------------------
+Program 2 ( Point 5 )
+
+Write a logic for the following pattern in c?
+
+    0
+
+    1 0
+
+    0 1 0
+
+    1 0 1 0
+
+    0 1 0 1 0
+
+----------------------
+Program 4 ( Point 15 )
+
+Write a c program to print sum of prime elements of array and print the sum.
+
+input:2,3,4,5,7,8,9,10,11
+
+output:sum is =28
+
+Input : 
+----------------------
+Program 3 ( Point 10 )
+
+Write a program in C to find sum of rows and columns of a Matrix. 
+
+Input the size of the square matrix : 2 
+Input elements in the first matrix : 
+element - [0],[0] : 5 
+element - [0],[1] : 6 
+element - [1],[0] : 7 
+element - [1],[1] : 8 
+Expected Output : 
+The First matrix is : 
+The matrix is : 
+5 6 
+7 8 
+The sum or rows and columns of the matrix is : 
+5 6 11 
+7 8 15  
+12 14 
+
+
+================ Set C ==============
+
+Program 1 ( Point 5)
+
+write a c program to sort the given String.
+
+
+
+input:-> Apple
+
+Output:Aelpp
+
+
+
+
+
+--------------------
+
+Program 2 ( Point 5 )
+
+
+Write the logic for the below program?
+
+
+
+1 
+
+2     6
+
+3     7     10
+
+4     8     11     13
+
+5     9     12     14     15
+
+
+
+
+----------------------
+Program 4 ( Point 15 )
+
+Write a c program to print all prime elements from the array?
+
+input : 12 11 2 4 6 5 3
+
+output : 11 2 5 3 
+
+
+
+
+----------------------
+Program 3 ( Point 10 )
+
+Write a program in C to find the second largest element in an array.
+Test Data :
+Input the size of array : 5
+Input 5 elements in the array :
+element - 0 : 2
+element - 1 : 9
+element - 2 : 1
+element - 3 : 4
+element - 4 : 6
+Expected Output :
+The Second largest element in the array is : 6
+
+
+
+
+

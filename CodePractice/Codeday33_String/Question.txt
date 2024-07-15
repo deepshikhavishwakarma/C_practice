@@ -44,64 +44,8 @@ Output as : ron
 ==========================================================================================================================
 
 
-// C Program to Display All Characters Present in the Prime Position of a String.
 
-// Test Data :
 
-// Input a string : today is wednesday
-
-// Output as : da sdey
-
-#include <stdio.h>
-#include <string.h>
-int isVowel(char a){
-    if(a[i]=='a' || a[i]=='A' || a[i]=='e' ||a[i]=='E' || a[i]=='I' || a[i]=='i' ||a[i]=='O' ||a[i]=='o' ){
-        return 1;
-    }else{
-        return 0;
-    }
-}
-int main() {
-    char s[50],v[20];
-    printf("Enter String\n");gets(s);//Aeroplane
-    
-    int len=strlen(s);
-    int index=0;
-    //for(int i=0;a[i]!='\0';i++){
-    for(int i=len-1;i>=0;i--){
-        if(isVowel(s[i])){
-         v[index++]=s[i];
-        }
-    }
-    index=0;
-    for(int i=0;i<len;i++){
-        if(isVowel(s[i])){
-         s[i]=v[index++];
-        }
-    }
-    
-    printf("%s",v);  
-    
-
-    return 0;
-}
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-//     char s[50],v[20];
-//     int start=0,end=0;
-//     printf("Enter String\n");gets(s);//Aeroplane
-//     int len=strlen(s);
-//     for(int i=0;i<len;i++){
-//         for(int j=len-1;j<=i;j--){
-//             if()
-            
-//         }
-//     }
-   
-   
-// } 
 
 
 
