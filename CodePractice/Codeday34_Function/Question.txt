@@ -1,0 +1,85 @@
+ square of any number
+
+
+Write a program in C to find the square of any number using the function.
+
+Test Data :
+
+Input any number for square : 20
+
+Expected Output :
+
+
+The square of 20 is : 400.00
+========================================================================================================
+ Even or Odd
+
+
+Write a program in C to check if a given number is even or odd using the function.
+
+Test Data :
+
+Input any number : 5
+
+Expected Output :
+
+The entered number is odd. 
+========================================================================================================
+ Check Prime Number
+
+
+Write a program in C to check whether a number is a prime number or not by using the function.
+
+Test Data :
+
+Input a positive number : 5
+
+Expected Output :
+
+The number 5 is a prime number.
+
+========================================================================================================
+ Max Number
+
+
+Write a C program to find the biggest number between three number using the function.
+
+Test Data :
+
+Input three positive number : 13 31 19
+
+Expected Output :
+
+The biggest number is 31.
+
+========================================================================================================
+ Swap Number
+
+
+Write a program in C to swap two numbers using a function.
+
+Test Data :
+
+Input 1st number : 2
+
+Input 2nd number : 4
+
+Expected Output :
+
+
+Before swapping: n1 = 2, n2 = 4                          
+
+After swapping: n1 = 4, n2 = 2 
+========================================================================================================
+ Natural Number
+
+
+Write a program in C to add n natural numbers using a function.
+
+Test Data :
+
+Input n value : 10
+
+Expected Output :
+
+The sum of 10 natural numbers is 55
