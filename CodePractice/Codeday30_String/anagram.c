@@ -21,12 +21,12 @@ int main()
                 s[i] = s[j];
                 s[j] = t;
             }
-            if (s1[i] > s1[j])
-            {
-                int t = s1[i];
-                s1[i] = s1[j];
-                s1[j] = t;
-            }
+            // if (s1[i] > s1[j])
+            // {
+            //     int t = s1[i];
+            //     s1[i] = s1[j];
+            //     s1[j] = t;
+            // }
         }
     }
     for (int i = 0; i < l; i++)
